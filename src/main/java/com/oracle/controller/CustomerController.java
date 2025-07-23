@@ -30,7 +30,7 @@ public class CustomerController {
 
 	@GetMapping("/home")
 	public String home() {
-		return "home";
+		return "home pauk walker";
 	}
 	@PostMapping("/signup")
 	public void signup(@RequestBody Customer customer) {
